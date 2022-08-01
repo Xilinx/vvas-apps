@@ -1,0 +1,9 @@
+{
+  "format"     : 1,
+  "width"      : 1920,
+  "height"     : 1080,
+  "num_planes" : 2,
+  "stride"     : [1920, 1920],
+  "debug_level" : 1,
+  "pipeline"  : "video/x-raw, width=1920, height=1080, format=NV12, framerate=60/1 ! vvas_xabrscaler dev-idx=0 xclbin-location=/opt/xilinx/xcdr/xclbins/transcode.xclbin kernel-name=scaler:{scaler_1} ppc=4 ! video/x-raw, width=1280, height=720, format=NV12, framerate=60/1" 
+}

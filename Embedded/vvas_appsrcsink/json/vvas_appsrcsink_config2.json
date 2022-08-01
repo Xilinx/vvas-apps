@@ -1,0 +1,9 @@
+{
+  "format"     : 3,
+  "width"      : 1920,
+  "height"     : 1080,
+  "num_planes" : 2,
+  "stride"     : [1920, 1920],
+  "debug_level" : 1,
+  "pipeline"  : "h264parse ! omxh264dec internal-entropy-buffers=3 ! video/x-raw, width=1920, height=1080, format=NV12, framerate=60/1 ! queue ! vvas_xinfer preprocess-config=/home/root/shiva/app3/json/kernel_pp_yolov3.json infer-config=/home/root/shiva/app3/json/kernel_yolov3_voc.json" 
+}

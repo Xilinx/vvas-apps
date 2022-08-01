@@ -17,6 +17,9 @@ The example demonstrates how to build **Optical Flow** based Gstreamer pipelines
 
 ### compositor_example
 
-The_example covers steps to create hardware accelerated composition pipelines that takes inputs from up to 16 different video sources and then compose all these input frames in to an output frame. User can define the resolutin, position of each input onto the output frame. This example explains to build four channel compositor pipeline that processes 4 streams in parallel. This tutorial explains step by step approach to build zcu104 based platform and application for running compositor pipeline. Details about how to use this example is covered in [compositor_example](Embedded/compositor_example/README.md)
+The example covers steps to create hardware accelerated composition pipelines that takes inputs from up to 16 different video sources and then compose all these input frames in to an output frame. User can define the resolutin, position of each input onto the output frame. This example explains to build four channel compositor pipeline that processes 4 streams in parallel. This tutorial explains step by step approach to build zcu104 based platform and application for running compositor pipeline. Details about how to use this example is covered in [compositor_example](Embedded/compositor_example/README.md)
 
+### vvas_appsrcsink
+
+This example demonstrates integration of VVAS into the current user architecture, which need not be Gstreamer based.
 
