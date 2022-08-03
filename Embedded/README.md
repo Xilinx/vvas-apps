@@ -14,5 +14,5 @@ The example covers steps to create hardware accelerated composition pipelines th
 
 ### vvas_appsrcsink
 
-This example demonstrates integration of VVAS into the current user architecture, which need not be Gstreamer based.
+This example demonstrates integration of VVAS into the current user architecture, which need not be Gstreamer based. Details about how to use this example is covered in [vvas_appsrcsink](vvas_appsrcsink/README.md)
 
